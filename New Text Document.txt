@@ -1,0 +1,43 @@
+1-
+we found the keys behind the tables 
+inserted into tables using the UI/ starting witn 1 / 
+the id in table 3 can be used again after chaging just one number
+
+
+2- DB bakcup
+
+
+3- 
+normal view :full outer join
+table order : 2>>1>>>3
+
+fixed view: inner join
+we create the alias from the UI , to get the columns displayed properly
+
+
+4-
+changed sp from task.5 to 4 using an ALTER cmd /and changed the jobname / jobcode to propery reflect the table(char 50 , int )
+changed table columns fron tiny int to int and from varchar 12 to varachar 50 by recreating the table ,  or the ALTER cmd
+ran the SP , right click > exec>>>added the values on that ui
+
+
+5-
+we ran the sp as a code / 
+we checked profiler & event viewer & logfile viewer 
+found error 9002 
+googled it 
+found possible answers 
+test the solution related to db transaction log size 
+enabled growth / 
+ran the SP again...working 
+tran log is now larger
+
+
+
+-6
+- we used profiler / choose tunning / ran assignment 4.exe/ entered 1 / found the 4 commands that its executing
+
+
+https://www.youtube.com/watch?v=MKz4Cq5cj-c
+
+
